@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+phi3-mini-yoda-adapter/
+local-phi3-mini-yoda-adapter/
+logs/
+hugging_face_cc
+.env
+*.env
+.cache/
