@@ -4,3 +4,6 @@ peft
 transformers
 trl 
 numpy
+bitsandbytes
+matplotlib
+accelerate
