@@ -10,3 +10,7 @@ hugging_face_cc
 .env
 *.env
 .cache/
+pytorch_model.bin
+pytorch_model.bin.1
+*.bin
+*.safetensors
