@@ -14,3 +14,4 @@ pytorch_model.bin
 pytorch_model.bin.1
 *.bin
 *.safetensors
+bert-finetuned-imdb

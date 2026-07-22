@@ -8,3 +8,5 @@ bitsandbytes
 matplotlib
 accelerate
 peft
+fsspec
+scikit-learn
