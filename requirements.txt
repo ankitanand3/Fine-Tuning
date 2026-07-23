@@ -10,3 +10,4 @@ accelerate
 peft
 fsspec
 scikit-learn
+torchvision
