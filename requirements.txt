@@ -11,3 +11,5 @@ peft
 fsspec
 scikit-learn
 torchvision
+d2l
+torchvision
