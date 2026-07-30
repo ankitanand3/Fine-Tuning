@@ -15,3 +15,9 @@ pytorch_model.bin.1
 *.bin
 *.safetensors
 bert-finetuned-imdb
+
+
+distilled_student_30ep.pth 
+distilled_stident.pth 
+pytorch_model.bin
+pytorch_model.bin.1
