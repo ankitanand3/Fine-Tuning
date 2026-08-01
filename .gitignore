@@ -21,3 +21,6 @@ distilled_student_30ep.pth
 distilled_stident.pth 
 pytorch_model.bin
 pytorch_model.bin.1
+Llama-3.2-1B-Instruct-gptqmodel-4bit
+distilled_student_30ep.pth 
+distilled_stident.pth 
