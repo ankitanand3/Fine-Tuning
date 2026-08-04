@@ -14,3 +14,4 @@ torchvision
 d2l
 torchvision
 GPTQModel
+gensim
