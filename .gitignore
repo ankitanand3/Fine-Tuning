@@ -24,3 +24,11 @@ pytorch_model.bin.1
 Llama-3.2-1B-Instruct-gptqmodel-4bit
 distilled_student_30ep.pth 
 distilled_stident.pth 
+checkpoint-3
+data
+distilled_student_model
+HW
+instruction_finetuning
+Llama-3.2-1B-Instruct-gptq-4bit
+llama-pharma-domain
+tinyllama-lora

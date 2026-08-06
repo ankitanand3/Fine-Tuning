@@ -13,6 +13,7 @@ scikit-learn
 torchvision
 d2l
 torchvision
-GPTQModel
+# GPTQModel
 gensim
 autoawq
+PyMuPDF
