@@ -32,3 +32,11 @@ instruction_finetuning
 Llama-3.2-1B-Instruct-gptq-4bit
 llama-pharma-domain
 tinyllama-lora
+# Training artifacts - regenerable, not source
+**/checkpoint-*/
+**/phi3_outputs/
+**/unsloth_compiled_cache/
+runs/
+*.zip
+Unsloth/build.log
+Llama_Factory/.gradio/

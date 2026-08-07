@@ -12,8 +12,11 @@ fsspec
 scikit-learn
 torchvision
 d2l
-torchvision
 # GPTQModel
 gensim
 autoawq
 PyMuPDF
+llamafactory
+unsloth
+torchaudio
+xformers
