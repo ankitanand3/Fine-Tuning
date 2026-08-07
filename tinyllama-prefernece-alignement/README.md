@@ -1,15 +1,15 @@
 ---
 base_model: TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T
 library_name: transformers
-model_name: tinyllama-preference-alignment
+model_name: tinyllama-prefernece-alignement
 tags:
 - generated_from_trainer
-- trl
 - dpo
+- trl
 licence: license
 ---
 
-# Model Card for tinyllama-preference-alignment
+# Model Card for tinyllama-prefernece-alignement
 
 This model is a fine-tuned version of [TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T](https://huggingface.co/TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T).
 It has been trained using [TRL](https://github.com/huggingface/trl).
@@ -30,15 +30,16 @@ print(output["generated_text"])
  
 
 
+
 This model was trained with DPO, a method introduced in [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://huggingface.co/papers/2305.18290).
 
 ### Framework versions
 
-- TRL: 0.25.1
-- Transformers: 4.57.1
-- Pytorch: 2.8.0+cu126
-- Datasets: 4.0.0
-- Tokenizers: 0.22.1
+- TRL: 1.9.2
+- Transformers: 5.14.1
+- Pytorch: 2.13.0+cu130
+- Datasets: 5.0.1
+- Tokenizers: 0.22.2
 
 ## Citations
 
@@ -58,12 +59,11 @@ Cite DPO as:
 Cite TRL as:
     
 ```bibtex
-@misc{vonwerra2022trl,
-	title        = {{TRL: Transformer Reinforcement Learning}},
-	author       = {Leandro von Werra and Younes Belkada and Lewis Tunstall and Edward Beeching and Tristan Thrush and Nathan Lambert and Shengyi Huang and Kashif Rasul and Quentin Gallou{\'e}dec},
-	year         = 2020,
-	journal      = {GitHub repository},
-	publisher    = {GitHub},
-	howpublished = {\url{https://github.com/huggingface/trl}}
+@software{vonwerra2020trl,
+  title   = {{TRL: Transformers Reinforcement Learning}},
+  author  = {von Werra, Leandro and Belkada, Younes and Tunstall, Lewis and Beeching, Edward and Thrush, Tristan and Lambert, Nathan and Huang, Shengyi and Rasul, Kashif and Gallouédec, Quentin},
+  license = {Apache-2.0},
+  url     = {https://github.com/huggingface/trl},
+  year    = {2020}
 }
 ```
