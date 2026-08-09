@@ -20,3 +20,5 @@ llamafactory
 unsloth
 torchaudio
 xformers
+sentence_transformers
+mteb
